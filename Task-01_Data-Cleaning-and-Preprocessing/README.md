@@ -1,51 +1,141 @@
-# Task 1: Data Cleaning and Preprocessing
+# Task 01 – Data Cleaning and Preprocessing
 
+## Overview
+This project focuses on cleaning and preprocessing raw sales data to make it suitable for analysis, SQL querying, and dashboard development.  
+It was completed as part of a **Data Analyst Internship** and follows a clean, modular, and reproducible workflow.
 
----
-
-## 📁 Dataset Used
-
-**Dataset Name:** Sales Data  
-**Source:** [Sales Data Sample on Kaggle](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data)
-
-The dataset contains order information including product details, customer information, dates, sales values, and other metadata.
+Data cleaning is a critical first step in any real-world analytics pipeline, and this task simulates that responsibility using Python and Pandas.
 
 ---
 
-## 🛠 Tools & Environment
-
-- **Programming Language:** Python 3.13  
-- **IDE:** Visual Studio Code  
-- **Libraries Used:**  
-  - `pandas`
-
-
----
-
-##  Cleaning Steps Performed
-
-1. **Loaded dataset** using `pandas.read_csv()` with appropriate encoding (`ISO-8859-1`).
-2. **Handled missing values**:
-   - Filled missing address-related fields with empty strings or default values.
-   - Filled numeric columns with median values.
-3. **Standardized text values** by:
-   - Lowercasing
-   - Stripping whitespaces
-   - Removing hidden characters (tabs, newlines)
-4. **Converted dates** to `datetime` format (`ORDERDATE`) and dropped rows with invalid dates.
-5. **Renamed columns** to be lowercase and use underscores instead of spaces.
-6. **Converted data types** for relevant numeric columns using `pd.to_numeric()`.
-7. **Created new column** `total_order_value` by multiplying `quantityordered` × `priceeach`.
-8. **Removed duplicate records** using `drop_duplicates()`.
-9. **Saved the cleaned dataset** as `sales_data_cleaned.csv`.
+## Objective
+- Clean raw sales data
+- Handle missing values and duplicate records
+- Standardize text and data types
+- Create basic derived features
+- Export a clean dataset for downstream tasks
 
 ---
 
-## 📂 Files Included
-
-- `sales_data_sample.csv` – Original raw dataset  
-- `sales_data_cleaned.csv` – Final cleaned dataset  
-- `README.md` – This file
+## Tools & Technologies
+- Python 3
+- Pandas
+- NumPy
+- Jupyter Notebook
+- VS Code
 
 ---
 
+## Project Structure
+```
+
+Task-01_Data-Cleaning-and-Preprocessing/
+├── data/
+│   ├── sales_data_sample.csv        # Raw dataset
+│   └── sales_data_cleaned.csv       # Cleaned dataset
+├── notebooks/
+│   └── data_cleaning.ipynb          # Step-by-step explanation
+├── scripts/
+│   └── data_cleaning_and_preprocessing.py  # Reusable cleaning pipeline
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+```
+
+---
+
+## Dataset Description
+- **sales_data_sample.csv**  
+  Contains raw sales records including product details, quantities, prices, and order-related information.
+
+- **sales_data_cleaned.csv**  
+  Cleaned and standardized version of the dataset, ready for analysis and visualization.
+
+---
+
+## Steps Performed
+1. Loaded raw data using Pandas
+2. Performed initial inspection (shape, missing values, duplicates)
+3. Removed duplicate records
+4. Handled missing values:
+   - Numerical columns → median
+   - Categorical columns → placeholder values
+5. Standardized text columns (lowercase, trimmed spaces)
+6. Converted date columns to datetime format
+7. Created a derived feature: `total_order_value`
+8. Saved the cleaned dataset for reuse
+
+---
+
+## How to Run the Project
+
+### 1. Navigate to the project folder
+```bash
+cd Task-01_Data-Cleaning-and-Preprocessing
+```
+
+### 2. Create and activate a virtual environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Run the cleaning script
+
+```bash
+cd scripts
+python data_cleaning_and_preprocessing.py
+```
+
+### 5. (Optional) Run the notebook
+
+```bash
+cd ..
+jupyter notebook
+```
+
+Open `notebooks/data_cleaning.ipynb`
+
+---
+
+## Outcome
+
+* A clean and structured dataset ready for:
+
+  * Exploratory Data Analysis (EDA)
+  * SQL-based analysis
+  * Power BI dashboards
+* The cleaned dataset is reused in subsequent internship tasks.
+
+---
+
+## Reusability
+
+This task serves as the **data foundation** for later internship work, including:
+
+* Exploratory Data Analysis
+* Sales Trend Analysis
+* Interactive Dashboards
+
+---
+
+## Notes
+
+* A Python virtual environment is used to ensure dependency isolation.
+* The `venv/` directory is excluded from version control via `.gitignore`.
+
+---
+
+## Author
+
+**Athar Shaikh**
+Data Analyst Intern
+Elevate Labs
