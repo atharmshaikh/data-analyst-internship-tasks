@@ -26,6 +26,14 @@ Data cleaning is a critical first step in any real-world analytics pipeline, and
 
 ---
 
+## Dataset Source
+
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data)
+
+The dataset contains order-level sales information including products, quantities, prices, and dates.
+
+---
+
 ## Project Structure
 ```
 
