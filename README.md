@@ -25,7 +25,7 @@ This repository is designed to:
 
 - [x] Repository structure finalized
 - [x] Task-01 completed and stabilized
-- [ ] Task-02 Exploratory Data Analysis
+- [x] Task-02 Data Visualization and Storytelling
 - [ ] Task-03 SQL Analysis
 - [ ] Task-04 Data Visualization
 - [ ] Task-05 Power BI Dashboard
@@ -44,8 +44,7 @@ This repository is designed to:
 data-analyst-internship-tasks/
 │
 ├── Task-01_Data-Cleaning-and-Preprocessing/
-│
-├── Task-02_Exploratory-Data-Analysis/        (planned)
+├── Task-02_Data-Visualization-and-Storytelling/  
 ├── Task-03_SQL-Analysis/                     (planned)
 ├── Task-04_Data-Visualization/               (planned)
 ├── Task-05_Power-BI-Dashboard/               (planned)
@@ -60,7 +59,7 @@ data-analyst-internship-tasks/
 ---
 
 ## Completed Work
-![Completed](https://img.shields.io/badge/Section-Completed%20Work-success?style=flat-square)
+![Completed](https://img.shields.io/badge/COMPLETED%20WORK-Internship%20Milestones-success?style=for-the-badge)
 
 [![Task 01](https://img.shields.io/badge/Task%2001-Data%20Cleaning-blue?style=for-the-badge&logo=python)](./Task-01_Data-Cleaning-and-Preprocessing)
 
@@ -90,6 +89,41 @@ Task-01_Data-Cleaning-and-Preprocessing/
 > Earlier standalone repositories for Task-01 have been archived.  
 > This repository is the **single source of truth** for internship work.
 
+[![Task 02](https://img.shields.io/badge/Task%2002-Data%20Visualization%20%26%20Storytelling-blue?style=for-the-badge&logo=powerplatform&logoColor=white)](./Task-02_Data-Visualization-and-Storytelling)
+
+
+### Task 02 – Data Visualization and Storytelling
+
+**Status:** Completed & Stable  
+
+**Summary:**  
+This task focuses on transforming cleaned sales data into a structured visual
+narrative using Power BI. The objective is to communicate business insights
+clearly through professional dashboards and reports, following industry
+standards for visual storytelling.
+
+**Key Characteristics:**
+- Business-focused dashboard design
+- Appropriate chart selection for analytical questions
+- Clean, consistent visual styling
+- Insight-driven storytelling (not chart-heavy)
+- Exported, reviewable deliverables (PDF & images)
+
+**Deliverables:**
+- Power BI dashboard (screenshot)
+- Final analytical report (PDF)
+- Written visual insights (Markdown)
+
+**Location:**  
+```
+Task-02_Data-Visualization-and-Storytelling/
+
+```  
+
+> Task 02 was migrated from a standalone repository and consolidated into this
+> unified internship repository to maintain a **single source of truth**.
+
+
 ---
 
 ## Tools, Technologies & Platforms
@@ -112,7 +146,8 @@ Task-01_Data-Cleaning-and-Preprocessing/
 
 ### Data & Visualization
 [![SQL](https://img.shields.io/badge/SQL-Analysis-lightgrey?logo=postgresql)](https://www.postgresql.org/)
-[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)](https://powerbi.microsoft.com/)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-blue?logo=microsoft&logoColor=white)](https://powerbi.microsoft.com/)
+
 
 ---
 
