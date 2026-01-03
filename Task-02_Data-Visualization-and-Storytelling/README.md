@@ -35,6 +35,26 @@ The primary objectives of this task are to:
 
 ---
 
+## Dataset Source
+
+The dataset used for this analysis is publicly available and was sourced from Kaggle.
+
+**Dataset Name:** Superstore Sales Dataset 
+**Source Platform:** Kaggle 
+**Format:** CSV 
+**Usage:** Educational and analytical purposes 
+
+<p align="left">
+  <a href="https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting" target="_blank">
+    <img src="https://img.shields.io/badge/Dataset-Download%20from%20Kaggle-blue?style=for-the-badge&logo=kaggle&logoColor=white" />
+  </a>
+</p>
+
+> The dataset was downloaded locally and stored in the repository for reproducibility and offline analysis.
+
+
+
+---
 ## Dataset Description
 
 The analysis uses the **Superstore Sales Dataset**, which contains transactional retail data with the following dimensions:
@@ -101,7 +121,7 @@ Each visualization was selected based on the business question it addresses and 
 | Dashboard Screenshot | `dashboards/screenshots/superstore_dashboard.jpg` |
 | Final Project Report (PDF) | `reports/Task-02_Data-Visualization-and-Storytelling.pdf` |
 | Visual Insights Notes | `notes/visual_insights.md` |
-| Dataset | `data/Superstore.csv` |
+| Dataset (Local Copy) | `data/Superstore.csv` |
 
 ---
 
@@ -125,7 +145,7 @@ Task-02_Data-Visualization-and-Storytelling
 
 ## Outcome
 
-This project demonstrates the ability to transform raw data into structured, insight-driven visual stories using Power BI. It reflects an industry-aligned approach to analytical thinking, dashboard design, and professional documentation suitable for stakeholder and recruiter review.
+This project demonstrates the ability to transform raw data into structured, insight-driven visual stories using Power BI. It reflects an industry-aligned approach to analytical thinking, dashboard design, and professional documentation suitable for stakeholder communication and recruiter evaluation.
 
 ---
 
