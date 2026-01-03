@@ -1,16 +1,36 @@
-# VS Code
-.vscode/
-
+# =========================
 # Python
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 
-# Virtual environments
+# =========================
+# Virtual Environments
+# =========================
 venv/
+.env/
+.envrc/
 
+# =========================
 # Jupyter
+# =========================
 .ipynb_checkpoints/
 
-# OS files
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS / Editor files
+# =========================
 .DS_Store
 Thumbs.db
+*.swp
+# =========================
+# Python packaging
+# =========================
+*.egg-info/
+dist/
+build/
