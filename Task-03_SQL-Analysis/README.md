@@ -9,9 +9,7 @@
   <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce">
     <img src="https://img.shields.io/badge/Dataset-Olist_E--Commerce-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white">
   </a>
-  <a href="https://github.com/atharmshaikh">
-    <img src="https://img.shields.io/badge/GitHub-Athar_Shaikh-181717?style=for-the-badge&logo=github">
-  </a>
+
 </p>
 
 ---
@@ -64,24 +62,24 @@ The dataset contains real transactional data from a Brazilian e-commerce platfor
 Task-03_SQL-Analysis/
 ├── data/
 │   ├── olist.db
-│   ├── raw/
-│   │   └── README.md
 │   ├── processed/
 │   │   └── README.md
+│   ├── raw/
+│   │   └── README.md
 │   └── README.md
-├── sql/
-│   ├── schema/
-│   │   └── schema.sql
-│   ├── queries/
-│   │   └── aggregations.sql
-│   └── analysis/
-│       └── insights.sql
 ├── reports/
 │   ├── screenshots/
-│   │   ├── revenue_by_state.png
 │   │   ├── avg_order_value.png
-│   │   └── monthly_revenue.png
+│   │   ├── monthly_revenue.png
+│   │   └── revenue_by_state.png
 │   └── README.md
+├── sql/
+│   ├── analysis/
+│   │   └── insights.sql
+│   ├── queries/
+│   │   └── aggregations.sql
+│   └── schema/
+│       └── schema.sql
 └── README.md
 ```
 
@@ -158,7 +156,7 @@ sql/analysis/insights.sql
 
 Identifies top revenue-contributing geographic regions.
 
-[View full image](reports/screenshots/revenue_by_state.png)
+
 
 ![Revenue by State](reports/screenshots/revenue_by_state.png)
 
@@ -168,7 +166,6 @@ Identifies top revenue-contributing geographic regions.
 
 Measures the average revenue generated per order.
 
-[View full image](reports/screenshots/avg_order_value.png)
 
 ![Average Order Value](reports/screenshots/avg_order_value.png)
 
@@ -177,8 +174,6 @@ Measures the average revenue generated per order.
 ### Monthly Revenue Trend
 
 Shows revenue aggregated by month to analyze growth and seasonality.
-
-[View full image](reports/screenshots/monthly_revenue.png)
 
 ![Monthly Revenue Trend](reports/screenshots/monthly_revenue.png)
 
@@ -261,6 +256,6 @@ This project demonstrates:
 
 ## Author
 
-**Athar Shaikh** 
-Data Analyst Intern 
-Elevate Labs 
+**Athar Shaikh**  
+Data Analyst Intern  
+Elevate Labs  
