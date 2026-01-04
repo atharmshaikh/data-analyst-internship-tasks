@@ -26,7 +26,7 @@ This repository is designed to:
 - [x] Repository structure finalized
 - [x] Task-01 completed and stabilized
 - [x] Task-02 Data Visualization and Storytelling
-- [ ] Task-03 SQL Analysis
+- [x] Task-03 SQL Analysis
 - [ ] Task-04 Data Visualization
 - [ ] Task-05 Power BI Dashboard
 - [ ] Task-06 Advanced Analysis
@@ -45,7 +45,7 @@ data-analyst-internship-tasks/
 │
 ├── Task-01_Data-Cleaning-and-Preprocessing/
 ├── Task-02_Data-Visualization-and-Storytelling/  
-├── Task-03_SQL-Analysis/                     (planned)
+├── Task-03_SQL-Analysis/
 ├── Task-04_Data-Visualization/               (planned)
 ├── Task-05_Power-BI-Dashboard/               (planned)
 ├── Task-06_Advanced-Analysis/                (planned)
@@ -125,6 +125,41 @@ Task-02_Data-Visualization-and-Storytelling/
 
 
 ---
+[![Task 03](https://img.shields.io/badge/Task%2003-SQL%20Analysis-blue?style=for-the-badge&logo=sqlite&logoColor=white)](./Task-03_SQL-Analysis)
+
+### Task 03 – SQL for Data Analysis
+
+**Status:** Completed & Stable  
+
+**Summary:**  
+This task focuses on performing end-to-end SQL-based data analysis using a real
+e-commerce dataset. The objective is to demonstrate an **industry-aligned SQL
+analytics workflow**, from schema design and data ingestion to business-focused
+analysis and reproducible results.
+
+**Key Characteristics:**
+- SQLite-based analytical database
+- Structured schema and staging-based ingestion
+- Business-driven SQL queries
+- Data validation and integrity checks
+- Clean separation of data, SQL, and reports
+
+**Deliverables:**
+- SQLite analytical database
+- SQL schema and analysis queries
+- Documented workflow and results
+- Analysis screenshots for verification
+
+**Location:**  
+```
+Task-03_SQL-Analysis/
+
+```  
+
+> Task 03 is maintained in this unified internship repository as the
+> **single source of truth** for SQL-based analytical work.
+
+---
 
 ## Tools, Technologies & Platforms
 ![Tools](https://img.shields.io/badge/Section-Tools%20%26%20Technologies-blueviolet?style=flat-square)
@@ -146,6 +181,9 @@ Task-02_Data-Visualization-and-Storytelling/
 
 ### Data & Visualization
 [![SQL](https://img.shields.io/badge/SQL-Analysis-lightgrey?logo=postgresql)](https://www.postgresql.org/)
+
+[![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+
 [![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-blue?logo=microsoft&logoColor=white)](https://powerbi.microsoft.com/)
 
 
