@@ -1,11 +1,11 @@
 # Task 06 — Sales Trend Analysis Using SQL Aggregations
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Language-SQL-2f80ed?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Database-MySQL-4479a1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Database-SQLite-003b57?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Completed-2e7d32?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/SQL-Querying-4A4A4A?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Database-MySQL-4479a1?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Database-SQLite-003b57?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Status-Completed-2e7d32?style=for-the-badge" />
 </p>
 
 ---
@@ -72,7 +72,6 @@ Task-06_Sales-Trend-Analysis/
 │   ├── monthly_trends.sql
 │   └── schema.sql
 └── README.md
-
 ```
 
 ### Structure Rationale
@@ -110,7 +109,7 @@ This separation reflects common practices in real-world analytics repositories.
 ### Step 1 — Create the Schema
 Execute the schema definition:
 
-```sql
+```bash
 sql/schema.sql
 ```
 
@@ -126,7 +125,7 @@ Load sales data into the `orders` table using one of the following:
 
 Execute the monthly aggregation query:
 
-```sql
+```bash
 sql/monthly_trends.sql
 ```
 
@@ -134,7 +133,7 @@ sql/monthly_trends.sql
 
 Run the business insight query:
 
-```sql
+```bash
 sql/insights.sql
 ```
 
@@ -191,5 +190,6 @@ This task is part of a **unified Data Analyst Internship repository**, where all
 ## Author
 
 **Athar Shaikh**
+
 Data Analyst Intern  
 Elevate Labs  
