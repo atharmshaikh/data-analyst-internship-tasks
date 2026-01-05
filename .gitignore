@@ -36,12 +36,6 @@ dist/
 build/
 
 # =========================
-# Power BI (local artifacts, if any)
-# =========================
-*.pbix
-*.pbit
-
-# =========================
 # Logs / temporary files
 # =========================
 *.log
@@ -50,3 +44,11 @@ build/
 
 # SQLite temporary files
 *.db-journal
+
+# =========================
+# Office / LibreOffice temp files (Linux + Windows)
+# =========================
+.~lock.*#
+~$*.pptx
+~$*.docx
+~$*.xlsx

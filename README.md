@@ -27,11 +27,11 @@ This repository is designed to:
 - [x] Task-01 completed and stabilized
 - [x] Task-02 Data Visualization and Storytelling
 - [x] Task-03 SQL Analysis
-- [ ] Task-04 Data Visualization
-- [ ] Task-05 Power BI Dashboard
-- [ ] Task-06 Advanced Analysis
-- [ ] Task-07 Reporting & Insights
-- [ ] Task-08 Final Review
+- [x] Task-04 Power BI Dashboard
+- [ ] Task-05 Exploratory Data Analysis (EDA)
+- [ ] Task-06 Sales Trend Analysis Using Aggregations
+- [ ] Task-07 Basic Sales Summary using SQLite & Python
+- [ ] Task-08 Interactive Sales Dashboard — Superstore Dataset
 - [ ] Capstone Project
 
 ---
@@ -43,15 +43,15 @@ This repository is designed to:
 data-analyst-internship-tasks/
 │
 ├── Task-01_Data-Cleaning-and-Preprocessing/
-├── Task-02_Data-Visualization-and-Storytelling/  
+├── Task-02_Data-Visualization-and-Storytelling/
 ├── Task-03_SQL-Analysis/
-├── Task-04_Data-Visualization/               (planned)
-├── Task-05_Power-BI-Dashboard/               (planned)
-├── Task-06_Advanced-Analysis/                (planned)
-├── Task-07_Reporting-and-Insights/           (planned)
-├── Task-08_Final-Review/                     (planned)
+├── Task-04_PowerBI-Sales-Dashboard/
+├── Task-05_Exploratory-Data-Analysis-EDA/          (planned)
+├── Task-06_Sales-Trend-Analysis-Using-Aggregations/ (planned)
+├── Task-07_Basic-Sales-Summary-SQLite-Python/     (planned)
+├── Task-08_Interactive-Sales-Dashboard-Superstore/ (planned)
 │
-└── Capstone_Project/                         (planned)
+└── Capstone_Project/                               (planned)
 
 ```
 
@@ -85,7 +85,7 @@ Task-01_Data-Cleaning-and-Preprocessing/
 
 > Earlier standalone repositories for Task-01 have been archived.  
 > This repository is the **single source of truth** for internship work.
-
+---
 [![Task 02](https://img.shields.io/badge/Task%2002-Data%20Visualization%20%26%20Storytelling-blue?style=for-the-badge&logo=powerplatform&logoColor=white)](./Task-02_Data-Visualization-and-Storytelling)
 
 
@@ -119,8 +119,6 @@ Task-02_Data-Visualization-and-Storytelling/
 
 > Task 02 was migrated from a standalone repository and consolidated into this
 > unified internship repository to maintain a **single source of truth**.
-
-
 ---
 [![Task 03](https://img.shields.io/badge/Task%2003-SQL%20Analysis-blue?style=for-the-badge&logo=sqlite&logoColor=white)](./Task-03_SQL-Analysis)
 
@@ -157,6 +155,45 @@ Task-03_SQL-Analysis/
 
 > Task 03 is maintained in this unified internship repository as the
 > **single source of truth** for SQL-based analytical work.
+---
+[![Task 04](https://img.shields.io/badge/Task%2004-Power%20BI%20Dashboard-blue?style=for-the-badge&logo=microsoftpowerbi&logoColor=white)](./Task-04_PowerBI-Sales-Dashboard)
+
+### Task 04 – Interactive Sales Performance Dashboard (Power BI)
+
+**Status:** Completed & Stable  
+
+**Summary:**  
+This task focuses on designing an **interactive sales performance dashboard**
+for business stakeholders using Power BI. The objective is to present key sales
+metrics and time-based trends in a structured, professional, and
+decision-oriented format.
+
+The dashboard emphasizes **clarity, interactivity, and business relevance**
+rather than exploratory or experimental analysis.
+
+**Key Characteristics:**
+- Executive-level KPI design (Sales, Orders, AOV, Product Count)
+- Time-series analysis (monthly and quarterly trends)
+- Interactive filtering and cross-highlighting
+- Clean, consistent visual layout
+- Stakeholder-ready presentation material
+
+**Deliverables:**
+- Interactive Power BI dashboard (`.pbix`)
+- Stakeholder summary presentation (`.pptx`)
+- Cleaned dataset with documented data state
+- Static dashboard preview for repository visibility
+- Business context and analytical insights (Markdown)
+
+**Location:**
+```
+Task-04_PowerBI-Sales-Dashboard/
+```
+
+> Task 04 was originally submitted as a standalone repository and later
+> **migrated, structurally refactored, and documented** into this unified internship
+> repository to maintain a **single source of truth** and industry-aligned
+> project structure.
 
 ---
 
