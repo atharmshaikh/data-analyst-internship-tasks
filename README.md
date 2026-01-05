@@ -20,7 +20,7 @@
   />
   <img 
     src="https://img.shields.io/badge/Workflow-Industry%20Aligned-blueviolet?style=for-the-badge"
-    alt="Workflow aligned with industry best practices"
+    alt="Workflow aligned with industry-aligned"
   />
   <img 
     src="https://img.shields.io/badge/Version%20Control-Git%20%26%20GitHub-red?style=for-the-badge"
@@ -64,7 +64,7 @@ This repository is designed to:
 - [x] Task-03 SQL Analysis
 - [x] Task-04 Power BI Dashboard
 - [x] Task-05 Exploratory Data Analysis (EDA)
-- [ ] Task-06 Sales Trend Analysis Using Aggregations
+- [x] Task-06 Sales Trend Analysis Using Aggregations
 - [ ] Task-07 Basic Sales Summary using SQLite & Python
 - [ ] Task-08 Interactive Sales Dashboard — Superstore Dataset
 - [ ] Capstone Project
@@ -82,7 +82,7 @@ data-analyst-internship-tasks/
 ├── Task-03_SQL-Analysis/
 ├── Task-04_PowerBI-Sales-Dashboard/
 ├── Task-05_Exploratory-Data-Analysis-EDA/
-├── Task-06_Sales-Trend-Analysis-Using-Aggregations/ (planned)
+├── Task-06_Sales-Trend-Analysis/
 ├── Task-07_Basic-Sales-Summary-SQLite-Python/     (planned)
 ├── Task-08_Interactive-Sales-Dashboard-Superstore/ (planned)
 │
@@ -231,7 +231,8 @@ Task-04_PowerBI-Sales-Dashboard/
 > project structure.
 
 ---
-[![Task 05](https://img.shields.io/badge/Task%2005-Exploratory%20Data%20Analysis-blue?style=for-the-badge&logo=python)](./Task-05_Exploratory-Data-Analysis-EDA)
+[![Task 05](https://img.shields.io/badge/Task%2005-Exploratory%20Data%20Analysis-blue?style=for-the-badge&logo=python)](./Task-05_Exploratory-Data-Analysis-EDA/)
+
 
 ### Task 05 – Exploratory Data Analysis (EDA)
 
@@ -266,46 +267,134 @@ Task-05_Exploratory-Data-Analysis-EDA/
 > **single source of truth** for exploratory data analysis work.
 
 ---
+---
+[![Task 06](https://img.shields.io/badge/Task%2006-Sales%20Trend%20Analysis-blue?style=for-the-badge&logo=postgresql&logoColor=white)](./Task-06_Sales-Trend-Analysis/)
+
+
+### Task 06 – Sales Trend Analysis Using SQL Aggregations
+
+**Status:** Completed & Stable  
+
+**Summary:**  
+This task focuses on analyzing **time-based sales performance** using SQL
+aggregation techniques. The objective is to compute monthly revenue and order
+volume while following an industry-aligned, schema-first SQL workflow.
+
+The task emphasizes **correct time grouping**, analytical accuracy, and
+reproducible query design rather than dashboarding or automation.
+
+**Key Characteristics:**
+- Schema-first SQL design
+- Monthly aggregation using year and month granularity
+- Revenue and order volume metrics
+- Business KPI extension (Average Order Value)
+- Documented assumptions and methodology
+- Lightweight, review-friendly structure
+
+**Deliverables:**
+- SQL schema and aggregation queries
+- Business-oriented insight queries
+- Documented assumptions and methodology
+- Human-readable results summary
+
+**Location:**
+```
+Task-06_Sales-Trend-Analysis/
+```
+
+> Task 06 was implemented directly within this unified internship repository
+> following industry-aligned SQL and documentation practices.
+
+---
 
 ## Tools, Technologies & Platforms
 ![Tools](https://img.shields.io/badge/Section-Tools%20%26%20Technologies-blueviolet?style=flat-square)
 
 ### Operating Systems
-[![Linux Mint](https://img.shields.io/badge/Linux%20Mint-Desktop-green?logo=linuxmint)](https://linuxmint.com/)
-[![Linux](https://img.shields.io/badge/Linux-OS-black?logo=linux)](https://www.kernel.org/)
-[![Windows](https://img.shields.io/badge/Windows-OS-blue?logo=windows)](https://www.microsoft.com/windows)
+<p>
+  <a href="https://linuxmint.com/">
+    <img src="https://img.shields.io/badge/Linux%20Mint-Desktop-2ecc71?style=for-the-badge&logo=linuxmint&logoColor=white" />
+  </a>
+  <a href="https://www.kernel.org/">
+    <img src="https://img.shields.io/badge/Linux-OS-000000?style=for-the-badge&logo=linux&logoColor=white" />
+  </a>
+  <a href="https://www.microsoft.com/windows">
+    <img src="https://img.shields.io/badge/Windows-OS-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 ### Programming & Analysis
-[![Python](https://img.shields.io/badge/Python-Programming-blue?logo=python)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)](https://pandas.pydata.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue?logo=numpy)](https://numpy.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org/)
+<p>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-Programming-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  </a>
+  <a href="https://numpy.org/">
+    <img src="https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  </a>
+  <a href="https://pandas.pydata.org/">
+    <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  </a>
+  <a href="https://matplotlib.org/">
+    <img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge" />
+  </a>
+  <a href="https://seaborn.pydata.org/">
+    <img src="https://img.shields.io/badge/Seaborn-Visualization-4C72B0?style=for-the-badge" />
+  </a>
+  <a href="https://jupyter.org/">
+    <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 ### Data & Visualization
-[![SQL](https://img.shields.io/badge/SQL-Analysis-lightgrey?logo=postgresql)](https://www.postgresql.org/)
-
-[![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-
-[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-blue?logo=microsoft&logoColor=white)](https://powerbi.microsoft.com/)
-
+<p>
+  <img src="https://img.shields.io/badge/SQL-Querying-4A4A4A?style=for-the-badge" />
+  <a href="https://www.sqlite.org/">
+    <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  </a>
+  <a href="https://powerbi.microsoft.com/">
+    <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  </a>
+  <a href="https://www.postgresql.org/">
+    <img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  </a>
+  <a href="https://www.mysql.com/">
+    <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 ### Development & Version Control
-[![Git](https://img.shields.io/badge/Git-Version%20Control-red?logo=git)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/)
-[![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue?logo=visualstudiocode)](https://code.visualstudio.com/)
+<p>
+  <a href="https://git-scm.com/">
+    <img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  </a>
+  <a href="https://github.com/">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://code.visualstudio.com/">
+    <img src="https://img.shields.io/badge/VS%20Code-Editor-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 ### Environment & Packaging
-[![venv](https://img.shields.io/badge/venv-Python%20Env-lightgrey)](https://docs.python.org/3/library/venv.html)
-[![pip](https://img.shields.io/badge/pip-Package%20Manager-blue)](https://pip.pypa.io/)
-[![setuptools](https://img.shields.io/badge/setuptools-Packaging-lightgrey)](https://setuptools.pypa.io/)
+<p>
+  <a href="https://docs.python.org/3/library/venv.html">
+    <img src="https://img.shields.io/badge/venv-Python%20Env-4B8BBE?style=for-the-badge" />
+  </a>
+  <a href="https://pip.pypa.io/">
+    <img src="https://img.shields.io/badge/pip-Package%20Manager-3776AB?style=for-the-badge" />
+  </a>
+  <a href="https://setuptools.pypa.io/">
+    <img src="https://img.shields.io/badge/setuptools-Build%20Tools-6C757D?style=for-the-badge" />
+  </a>
+</p>
 
 ---
 
@@ -336,4 +425,3 @@ Completed tasks are treated as **final and stable** and are not modified once
 downstream work begins.
 
 ---
-
