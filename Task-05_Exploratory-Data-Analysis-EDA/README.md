@@ -142,7 +142,7 @@ Task-05_Exploratory-Data-Analysis-EDA/
 ### Step 1: Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/atharmshaikh/data-analyst-internship-tasks.git
 cd data-analyst-internship-tasks/Task-05_Exploratory-Data-Analysis-EDA
 ```
 
@@ -205,12 +205,6 @@ jupyter notebook notebooks/01_titanic_eda.ipynb
 * Analysis can be fully reproduced using the raw dataset and notebook
 * Cleaned dataset is provided for reuse
 * No external credentials or proprietary tools required
-
----
-
-## License
-
-This project is licensed under the **MIT License**.
 
 ---
 
