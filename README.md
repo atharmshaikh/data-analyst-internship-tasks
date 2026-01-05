@@ -1,4 +1,39 @@
-# Data Analyst Internship Tasks
+<h1 align="center">Data Analyst Internship Tasks</h1>
+<p align="center">
+  <img 
+    src="https://img.shields.io/badge/Repository-Internship%20Portfolio-blue?style=for-the-badge"
+    alt="Repository type: Internship portfolio"
+  />
+  <img 
+    src="https://img.shields.io/badge/Tasks-Structured%20%26%20Versioned-success?style=for-the-badge"
+    alt="Tasks are structured and version controlled"
+  />
+  <img 
+    src="https://img.shields.io/badge/Status-Active-yellow?style=for-the-badge"
+    alt="Repository status: Active development"
+  />
+</p>
+<p align="center">
+  <img 
+    src="https://img.shields.io/badge/Focus-Data%20Analytics-informational?style=for-the-badge"
+    alt="Primary focus: Data analytics"
+  />
+  <img 
+    src="https://img.shields.io/badge/Workflow-Industry%20Aligned-blueviolet?style=for-the-badge"
+    alt="Workflow aligned with industry best practices"
+  />
+  <img 
+    src="https://img.shields.io/badge/Version%20Control-Git%20%26%20GitHub-red?style=for-the-badge"
+    alt="Version control using Git and GitHub"
+  />
+  <a href="./LICENSE">
+    <img 
+      src="https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge"
+      alt="Project license: MIT"
+    />
+  </a>
+</p>
+
 
 A consolidated, structured repository containing all tasks completed during my
 **Data Analyst Internship**.  
@@ -28,7 +63,7 @@ This repository is designed to:
 - [x] Task-02 Data Visualization and Storytelling
 - [x] Task-03 SQL Analysis
 - [x] Task-04 Power BI Dashboard
-- [ ] Task-05 Exploratory Data Analysis (EDA)
+- [x] Task-05 Exploratory Data Analysis (EDA)
 - [ ] Task-06 Sales Trend Analysis Using Aggregations
 - [ ] Task-07 Basic Sales Summary using SQLite & Python
 - [ ] Task-08 Interactive Sales Dashboard — Superstore Dataset
@@ -46,7 +81,7 @@ data-analyst-internship-tasks/
 ├── Task-02_Data-Visualization-and-Storytelling/
 ├── Task-03_SQL-Analysis/
 ├── Task-04_PowerBI-Sales-Dashboard/
-├── Task-05_Exploratory-Data-Analysis-EDA/          (planned)
+├── Task-05_Exploratory-Data-Analysis-EDA/
 ├── Task-06_Sales-Trend-Analysis-Using-Aggregations/ (planned)
 ├── Task-07_Basic-Sales-Summary-SQLite-Python/     (planned)
 ├── Task-08_Interactive-Sales-Dashboard-Superstore/ (planned)
@@ -194,6 +229,41 @@ Task-04_PowerBI-Sales-Dashboard/
 > **migrated, structurally refactored, and documented** into this unified internship
 > repository to maintain a **single source of truth** and industry-aligned
 > project structure.
+
+---
+[![Task 05](https://img.shields.io/badge/Task%2005-Exploratory%20Data%20Analysis-blue?style=for-the-badge&logo=python)](./Task-05_Exploratory-Data-Analysis-EDA)
+
+### Task 05 – Exploratory Data Analysis (EDA)
+
+**Status:** Completed & Stable  
+
+**Summary:**  
+This task focuses on performing structured exploratory data analysis on the
+Titanic dataset to identify patterns, trends, and relationships influencing
+passenger survival. The task emphasizes analytical reasoning, visual exploration,
+and reproducible documentation rather than predictive modeling.
+
+**Key Characteristics:**
+- Structured EDA workflow using Pandas, Matplotlib, and Seaborn
+- Clear separation of raw and processed data
+- Univariate, bivariate, and multivariate analysis
+- Saved visual outputs and written analytical observations
+- Reproducible environment using Python virtual environments
+- Platform-independent execution (Windows, macOS, Linux)
+
+**Deliverables:**
+- Complete Jupyter Notebook with EDA workflow
+- Saved analytical visualizations
+- Written observations and insights (Markdown)
+- Final PDF report of findings
+- Cleaned dataset for reuse
+
+**Location:**
+```
+Task-05_Exploratory-Data-Analysis-EDA/
+```
+> Task 05 is maintained in this unified internship repository as the
+> **single source of truth** for exploratory data analysis work.
 
 ---
 
