@@ -9,5 +9,5 @@ This folder represents the raw input data used for Task-03.
 
 Reason:
 Raw datasets are excluded to avoid duplication, large file sizes,
-and licensing concerns. Only the processed analytical database
+and licensing concerns. Only the final analytical SQLite database
 is version-controlled.

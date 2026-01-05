@@ -40,7 +40,6 @@ This repository is designed to:
 ![Structure](https://img.shields.io/badge/Section-Repository%20Structure-lightgrey?style=flat-square)
 
 ```
-
 data-analyst-internship-tasks/
 │
 ├── Task-01_Data-Cleaning-and-Preprocessing/
@@ -81,9 +80,7 @@ tasks in this repository.
 
 **Location:**
 ```
-
 Task-01_Data-Cleaning-and-Preprocessing/
-
 ```
 
 > Earlier standalone repositories for Task-01 have been archived.  
@@ -137,24 +134,26 @@ e-commerce dataset. The objective is to demonstrate an **industry-aligned SQL
 analytics workflow**, from schema design and data ingestion to business-focused
 analysis and reproducible results.
 
+The task emphasizes analytical correctness and result verification rather than automated data pipelines.
+
+
 **Key Characteristics:**
-- SQLite-based analytical database
+- SQLite-based analytical database (manual DB Browser workflow)
 - Structured schema and staging-based ingestion
 - Business-driven SQL queries
 - Data validation and integrity checks
 - Clean separation of data, SQL, and reports
 
 **Deliverables:**
-- SQLite analytical database
+- Final SQLite analytical database (manual DB Browser workflow)
 - SQL schema and analysis queries
 - Documented workflow and results
 - Analysis screenshots for verification
 
-**Location:**  
+**Location:**
 ```
 Task-03_SQL-Analysis/
-
-```  
+```
 
 > Task 03 is maintained in this unified internship repository as the
 > **single source of truth** for SQL-based analytical work.

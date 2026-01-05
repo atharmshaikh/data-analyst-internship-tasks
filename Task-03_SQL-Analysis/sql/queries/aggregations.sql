@@ -2,7 +2,7 @@
 
 -- Monthly revenue trend
 SELECT
-    substr(o.order_purchase_timestamp, 1, 7) AS month,
+    strftime('%Y-%m', o.order_purchase_timestamp) AS month,
     SUM(p.payment_value) AS monthly_revenue
 FROM orders o
 JOIN order_payments p ON o.order_id = p.order_id
