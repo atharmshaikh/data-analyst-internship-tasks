@@ -55,7 +55,7 @@ This repository is designed to:
 
 ---
 
-## Development Status
+## Development Status & Roadmap
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square)
 
 - [x] Repository structure finalized
@@ -65,7 +65,7 @@ This repository is designed to:
 - [x] Task-04 Power BI Dashboard
 - [x] Task-05 Exploratory Data Analysis (EDA)
 - [x] Task-06 Sales Trend Analysis Using Aggregations
-- [ ] Task-07 Basic Sales Summary using SQLite & Python
+- [x] Task-07 Basic Sales Summary using SQLite & Python
 - [ ] Task-08 Interactive Sales Dashboard — Superstore Dataset
 - [ ] Capstone Project
 
@@ -83,7 +83,7 @@ data-analyst-internship-tasks/
 ├── Task-04_PowerBI-Sales-Dashboard/
 ├── Task-05_Exploratory-Data-Analysis-EDA/
 ├── Task-06_Sales-Trend-Analysis/
-├── Task-07_Basic-Sales-Summary-SQLite-Python/     (planned)
+├── Task-07_Basic-Sales-Summary-SQLite-Python/
 ├── Task-08_Interactive-Sales-Dashboard-Superstore/ (planned)
 │
 └── Capstone_Project/                               (planned)
@@ -304,6 +304,48 @@ Task-06_Sales-Trend-Analysis/
 
 > Task 06 was implemented directly within this unified internship repository
 > following industry-aligned SQL and documentation practices.
+
+---
+
+[![Task 07](https://img.shields.io/badge/Task%2007-Basic%20Sales%20Summary-blue?style=for-the-badge&logo=python)](./Task-07_Basic-Sales-Summary-SQLite-Python)
+
+### Task 07 – Basic Sales Summary Using SQLite & Python
+
+**Status:** Completed & Stable  
+
+**Summary:**  
+This task focuses on generating a **product-level sales summary** using SQL
+aggregation queries executed within Python. The objective is to demonstrate
+clean integration between a lightweight SQLite database and Python-based
+analysis workflows.
+
+The task emphasizes **analytical correctness, reproducibility, and clean
+project structure**, rather than data scale or advanced modeling.
+
+**Key Characteristics:**
+- SQLite-based analytical data source (manual DB Browser workflow)
+- SQL aggregation for quantity and revenue metrics
+- Python-based execution with Pandas and Matplotlib
+- Script-first design with notebook as presentation layer
+- Virtual environment–based reproducibility
+- Clean separation of data, logic, outputs, and documentation
+
+**Deliverables:**
+- SQLite database (`sales_data.db`)
+- Reusable Python analysis script
+- Presentation-focused Jupyter notebook
+- Generated revenue visualization
+- Detailed task-level documentation
+
+**Location:**
+```
+Task-07_Basic-Sales-Summary-SQLite-Python/
+```
+
+> Task 07 was implemented directly within this unified internship repository,
+> following industry-aligned analytics workflows, clean project structuring,
+> and professional documentation standards.
+
 
 ---
 

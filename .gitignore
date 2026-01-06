@@ -46,6 +46,9 @@ build/
 # SQLite temporary files
 *.db-journal
 
+# SQLite DB Browser project files
+*.sqbpro
+
 # =========================
 # Office / LibreOffice temp files (Linux + Windows)
 # =========================
