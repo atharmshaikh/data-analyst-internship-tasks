@@ -19,8 +19,8 @@
     alt="Primary focus: Data analytics"
   />
   <img 
-    src="https://img.shields.io/badge/Workflow-Industry%20Aligned-blueviolet?style=for-the-badge"
-    alt="Structured and consistent workflow"
+  src="https://img.shields.io/badge/Workflow-Structured%20Analytics-blueviolet?style=for-the-badge"
+  alt="Structured analytics workflow"
   />
   <img 
     src="https://img.shields.io/badge/Version%20Control-Git%20%26%20GitHub-red?style=for-the-badge"
@@ -67,7 +67,7 @@ This repository is designed to:
 - [x] Task-06 Sales Trend Analysis Using Aggregations
 - [x] Task-07 Basic Sales Summary using SQLite & Python
 - [x] Task-08 Interactive Sales Dashboard — Superstore Dataset
-- [ ] Capstone Project
+- [x] Capstone Project — Retail Performance Analysis & Dashboard
 
 ---
 
@@ -86,14 +86,59 @@ data-analyst-internship-tasks/
 ├── Task-07_Basic-Sales-Summary-SQLite-Python/
 ├── Task-08_Interactive-Sales-Dashboard-Superstore/
 │
-└── Capstone_Project/                               (planned)
+└── Capstone_Retail_Performance_Analysis/
+
 
 ```
 
 ---
 
-## Completed Work
-![Completed](https://img.shields.io/badge/COMPLETED%20WORK-Internship%20Milestones-success?style=for-the-badge)
+## Completed Work (Tasks & Capstone)
+![Completed](https://img.shields.io/badge/COMPLETED%20WORK-Capstone%20%26%20Tasks-success?style=for-the-badge)
+
+
+[![Capstone](https://img.shields.io/badge/Capstone-Retail%20Performance%20Analysis-blue?style=for-the-badge)](./Capstone_Retail_Performance_Analysis)
+
+### Capstone – Retail Performance Analysis & Dashboard
+
+**Status:** Completed & Final  
+
+**Summary:**  
+This capstone project represents the **culmination of all analytical skills**
+demonstrated throughout the internship. It integrates data preparation,
+validation, aggregation, and dashboard development into a **single, coherent
+analysis workflow**.
+
+Unlike individual tasks that focus on isolated techniques, the capstone
+demonstrates the ability to **own an end-to-end analytical process**, from raw
+data ingestion to insight delivery through interactive dashboards.
+
+**Key Characteristics:**
+- Scripted data cleaning and validation using Python
+- Clear separation of raw, processed, and aggregated datasets
+- Reusable summary tables for efficient reporting
+- Multi-page interactive Power BI dashboard
+- Shared slicers and consistent cross-page filtering
+- Dashboard previews for review without opening Power BI
+- Dedicated documentation covering methodology, assumptions, and limitations
+
+**Deliverables:**
+- Cleaned retail dataset and derived summary tables (CSV)
+- Python scripts for reproducible data preparation
+- Power BI dashboard source file
+- Dashboard screenshots for repository visibility
+- Written analytical documentation (methodology, assumptions, limitations)
+
+**Location (Final Capstone):**
+```
+Capstone_Retail_Performance_Analysis/
+```
+
+> The capstone project serves as the **final and most comprehensive submission**
+> in this repository and builds directly upon the concepts introduced in
+> Tasks 01–08.
+
+---
 
 [![Task 01](https://img.shields.io/badge/Task%2001-Data%20Cleaning-blue?style=for-the-badge&logo=python)](./Task-01_Data-Cleaning-and-Preprocessing)
 
@@ -163,8 +208,7 @@ Task-02_Data-Visualization-and-Storytelling/
 
 **Summary:**  
 This task focuses on performing end-to-end SQL-based data analysis using a real
-e-commerce dataset. The objective is to demonstrate an **industry-aligned SQL
-analytics workflow**, from schema design and data ingestion to business-focused
+e-commerce dataset. The objective is to demonstrate an **structured SQL analytics workflow**, from schema design and data ingestion to business-focused
 analysis and reproducible results.
 
 The task emphasizes analytical correctness and result verification rather than automated data pipelines.
@@ -227,7 +271,7 @@ Task-04_PowerBI-Sales-Dashboard/
 
 > Task 04 was originally submitted as a standalone repository and later
 > **migrated, structurally refactored, and documented** into this unified internship
-> repository to maintain a **single source of truth** and industry-aligned
+> repository to maintain a **single source of truth** and iwell-structured
 > project structure.
 
 ---
@@ -343,7 +387,7 @@ Task-07_Basic-Sales-Summary-SQLite-Python/
 ```
 
 > Task 07 was implemented directly within this unified internship repository,
-> following industry-aligned analytics workflows, clean project structuring,
+> following structured analytics workflows, clean project structuring,
 > and professional documentation standards.
 
 ---
@@ -402,7 +446,8 @@ Task-08_Interactive-Sales-Dashboard-Superstore/
     <img src="https://img.shields.io/badge/Linux-OS-000000?style=for-the-badge&logo=linux&logoColor=white" />
   </a>
   <a href="https://www.microsoft.com/windows">
-    <img src="https://img.shields.io/badge/Windows-OS-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+    <img src="https://img.shields.io/badge/Operating%20System-Windows-0078D6?style=for-the-badge" />
+
   </a>
 </p>
 
@@ -439,7 +484,8 @@ Task-08_Interactive-Sales-Dashboard-Superstore/
     <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
   </a>
   <a href="https://powerbi.microsoft.com/">
-    <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+    <img src="https://img.shields.io/badge/Visualization-Power%20BI-F2C811?style=for-the-badge" />
+
   </a>
   <a href="https://www.postgresql.org/">
     <img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -497,6 +543,7 @@ Task-08_Interactive-Sales-Dashboard-Superstore/
 
 **Athar Shaikh**  
 Data Analyst Intern
+Elevate Labs 
 
 ---
 
