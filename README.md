@@ -20,7 +20,7 @@
   />
   <img 
     src="https://img.shields.io/badge/Workflow-Industry%20Aligned-blueviolet?style=for-the-badge"
-    alt="Workflow aligned with industry-aligned"
+    alt="Structured and consistent workflow"
   />
   <img 
     src="https://img.shields.io/badge/Version%20Control-Git%20%26%20GitHub-red?style=for-the-badge"
@@ -37,7 +37,7 @@
 
 A consolidated, structured repository containing all tasks completed during my
 **Data Analyst Internship**.  
-The repository follows **industry best practices** for project organization,
+The repository follows **structured and well-documented practices** for project organization,
 documentation, and version control.
 
 ---
@@ -66,7 +66,7 @@ This repository is designed to:
 - [x] Task-05 Exploratory Data Analysis (EDA)
 - [x] Task-06 Sales Trend Analysis Using Aggregations
 - [x] Task-07 Basic Sales Summary using SQLite & Python
-- [ ] Task-08 Interactive Sales Dashboard — Superstore Dataset
+- [x] Task-08 Interactive Sales Dashboard — Superstore Dataset
 - [ ] Capstone Project
 
 ---
@@ -84,7 +84,7 @@ data-analyst-internship-tasks/
 ├── Task-05_Exploratory-Data-Analysis-EDA/
 ├── Task-06_Sales-Trend-Analysis/
 ├── Task-07_Basic-Sales-Summary-SQLite-Python/
-├── Task-08_Interactive-Sales-Dashboard-Superstore/ (planned)
+├── Task-08_Interactive-Sales-Dashboard-Superstore/
 │
 └── Capstone_Project/                               (planned)
 
@@ -267,7 +267,7 @@ Task-05_Exploratory-Data-Analysis-EDA/
 > **single source of truth** for exploratory data analysis work.
 
 ---
----
+
 [![Task 06](https://img.shields.io/badge/Task%2006-Sales%20Trend%20Analysis-blue?style=for-the-badge&logo=postgresql&logoColor=white)](./Task-06_Sales-Trend-Analysis/)
 
 
@@ -303,7 +303,7 @@ Task-06_Sales-Trend-Analysis/
 ```
 
 > Task 06 was implemented directly within this unified internship repository
-> following industry-aligned SQL and documentation practices.
+> following structured SQL workflows and clear documentation practices.
 
 ---
 
@@ -346,6 +346,47 @@ Task-07_Basic-Sales-Summary-SQLite-Python/
 > following industry-aligned analytics workflows, clean project structuring,
 > and professional documentation standards.
 
+---
+
+[![Task 08](https://img.shields.io/badge/Task%2008-Interactive%20Sales%20Dashboard-blue?style=for-the-badge&logo=powerbi&logoColor=black)](./Task-08_Interactive-Sales-Dashboard-Superstore/)
+
+### Task 08 – Interactive Sales Dashboard (Superstore Dataset)
+
+**Status:** Completed & Stable  
+
+**Summary:**  
+This task focuses on designing a **simple, interactive sales dashboard** using
+Power BI to analyze sales performance across time, regions, and product
+categories. The objective is to demonstrate the ability to translate raw sales
+data into **clear, business-oriented visual insights** suitable for
+stakeholder review.
+
+The task emphasizes **dashboard clarity, correct aggregation logic, and
+interactivity**, rather than advanced modeling or automation.
+
+**Key Characteristics:**
+- Interactive dashboard built using Power BI
+- Sales trend analysis over time
+- Regional sales performance comparison
+- Category-level sales distribution
+- Region-based slicer for interactive filtering
+- Clean, minimal, and stakeholder-friendly layout
+- Written business insights derived directly from visuals
+
+**Deliverables:**
+- Power BI dashboard source file (`.pbix`)
+- Dashboard preview image for repository visibility
+- Written insights summarizing key business observations
+- Structured task-level documentation (README)
+
+**Location:**
+```
+Task-08_Interactive-Sales-Dashboard-Superstore/
+```
+
+> Task 08 was implemented directly within this unified internship repository,
+> following consistent dashboard design, clear documentation practices, and
+> structured version-control workflows.
 
 ---
 
