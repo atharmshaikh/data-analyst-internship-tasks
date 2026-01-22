@@ -1,4 +1,17 @@
-<h1 align="center">Data Analyst Internship Tasks</h1>
+<p align="center">
+  <a href="https://elevatelabs.in" target="_blank">
+    <img
+      src="https://elevatelabs.in/wp-content/uploads/2020/03/WhatsApp_Image_2025-08-11_at_16.14.26_a08de702-removebg-preview-e1754910921822.png"
+      alt="Elevate Labs"
+      width="220"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <strong>Data Analyst Intern — Elevate Labs</strong>
+</p>
+
 <p align="center">
   <img 
     src="https://img.shields.io/badge/Repository-Internship%20Portfolio-blue?style=for-the-badge"
@@ -543,7 +556,8 @@ Task-08_Interactive-Sales-Dashboard-Superstore/
 
 **Athar Shaikh**  
 Data Analyst Intern  
-Elevate Labs  
+[Elevate Labs](https://elevatelabs.in)
+  
 
 ---
 
