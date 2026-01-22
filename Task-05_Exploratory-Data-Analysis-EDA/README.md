@@ -210,7 +210,6 @@ jupyter notebook notebooks/01_titanic_eda.ipynb
 
 ## Author
 
-**Athar Shaikh**
-Data Analyst Intern
-Athar Shaikh  
-Elevate Labs
+**Athar Shaikh**  
+Data Analyst Intern  
+Elevate Labs  

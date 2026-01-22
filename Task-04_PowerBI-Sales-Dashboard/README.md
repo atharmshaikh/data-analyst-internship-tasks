@@ -189,3 +189,11 @@ This task demonstrates the ability to:
   https://learn.microsoft.com/power-bi/
 - Kaggle Dataset Page:  
   https://www.kaggle.com/datasets/kyanyoga/sample-sales-data
+
+---
+
+## Author
+
+**Athar Shaikh**  
+Data Analyst Intern  
+Elevate Labs  

@@ -542,8 +542,8 @@ Task-08_Interactive-Sales-Dashboard-Superstore/
 ![Author](https://img.shields.io/badge/Author-Athar%20Shaikh-blue?style=flat-square)
 
 **Athar Shaikh**  
-Data Analyst Intern
-Elevate Labs 
+Data Analyst Intern  
+Elevate Labs  
 
 ---
 
