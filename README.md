@@ -221,7 +221,7 @@ Task-02_Data-Visualization-and-Storytelling/
 
 **Summary:**  
 This task focuses on performing end-to-end SQL-based data analysis using a real
-e-commerce dataset. The objective is to demonstrate an **structured SQL analytics workflow**, from schema design and data ingestion to business-focused
+e-commerce dataset. The objective is to demonstrate a **structured SQL analytics workflow**, from schema design and data ingestion to business-focused
 analysis and reproducible results.
 
 The task emphasizes analytical correctness and result verification rather than automated data pipelines.
