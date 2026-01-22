@@ -195,6 +195,6 @@ Earlier standalone implementations are archived to preserve a **single source of
 
 ## Author
 
-**Athar Shaikh**
+**Athar Shaikh**  
 Data Analyst Intern  
 Elevate Labs  

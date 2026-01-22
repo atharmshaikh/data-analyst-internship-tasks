@@ -189,7 +189,6 @@ This task is part of a **unified Data Analyst Internship repository**, where all
 
 ## Author
 
-**Athar Shaikh**
-
+**Athar Shaikh**  
 Data Analyst Intern  
 Elevate Labs  
